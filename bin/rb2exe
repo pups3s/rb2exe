@@ -90,7 +90,7 @@ Dir.mktmpdir do |tmp_dir|
              when 'l32' then "#{gem_dir}/bin/traveling-ruby-2.2.2/l32"
              when 'osx' then "#{gem_dir}/bin/traveling-ruby-2.2.2/osx"
              when 'win' then "#{gem_dir}/bin/traveling-ruby-2.2.2/win"
-             else abort("Unknow platform (#{options[:target]})")
+             else abort("Unknown platform (#{options[:target]})")
   end
   FileUtils.cp_r(ruby_src, "#{tmp_dir}/payload/lib/ruby")
 

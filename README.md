@@ -1,6 +1,8 @@
 # Ruby to EXE
+[![Gem Version](https://badge.fury.io/rb/rb2exe.svg)](https://badge.fury.io/rb/rb2exe)
 
 Turn ruby scripts into portable executable apps.
+This gem uses [traveling-ruby gem](https://github.com/phusion/traveling-ruby).
 
 ## Installation
 
